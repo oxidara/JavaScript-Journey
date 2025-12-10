@@ -150,6 +150,80 @@ Code Snippet 3 demonstrates how to declare and initialize multiple variables in 
 `var studName = 'Abdullah', studAge = 15;`
 
 ---
+## Understanding `var`, `let`, and `const`
+
+## 3.2 The var Keyword
+
+### 3.2.1 Definition
+
+The **var** keyword is the original method for declaring variables in JavaScript. It has been part of the language since 1995.
+
+### 3.2.2 Key Characteristics
+
+**Function Scope:** Variables declared with var are function-scoped, meaning they are accessible throughout the entire function in which they are declared, regardless of block boundaries.
+
+**Re-declaration Allowed:** The same variable can be declared multiple times within the same scope without generating an error.
+
+**Re-assignment Allowed:** Values can be changed after declaration.
+
+**Hoisting:** Variables declared with var are hoisted to the top of their scope. The declaration is processed before code execution, but initialization remains in place.
+
+**Note:** Modern JavaScript development discourages the use of var due to scope-related issues.
+
+---
+## 3.3 The let Keyword
+
+### 3.3.1 Definition
+
+The **let** keyword was introduced in ECMAScript 6 (ES6) in 2015 to address the shortcomings of var. It provides block-level scope.
+
+### 3.3.2 Key Characteristics
+
+**Block Scope:** Variables declared with let are block-scoped. They only exist within the block (defined by curly braces) in which they are declared.
+
+**No Re-declaration:** Unlike var, let does not allow re-declaration of the same variable within the same scope.
+
+**Re-assignment Allowed:** Values can be changed after declaration.
+
+**Temporal Dead Zone (TDZ):** Variables declared with let cannot be accessed before their declaration in the code.
+
+**Usage:** Use let when you need to declare a variable whose value will change during program execution, such as loop counters or accumulator variables.
+
+---
+
+## 3.4 The const Keyword
+
+### 3.4.1 Definition
+
+The **const** keyword, also introduced in ES6, is used to declare constants—variables whose binding cannot be changed after initialization.
+
+### 3.4.2 Key Characteristics
+
+**Block Scope:** Like let, const is block-scoped and only accessible within its defining block.
+
+**No Re-declaration:** Cannot declare the same variable twice within the same scope.
+
+**No Re-assignment:** Variables declared with const cannot be reassigned. The binding between the variable name and its value is constant.
+
+**Must Initialize:** Constants must be initialized at the time of declaration. Declaration without initialization results in an error.
+
+**Object and Array Mutability:** While the binding of a const variable cannot change, the contents of objects and arrays declared with const can be modified. You can add, remove, or change properties of objects and elements of arrays.
+
+**Usage:** Use const as the default choice for variable declaration. It should be used for values that will not be reassigned, including configuration values, mathematical constants, and references to objects and arrays.
+
+---
+## 3.5 Comparison Table
+
+|Feature|var|let|const|
+|---|---|---|---|
+|**Scope**|Function|Block|Block|
+|**Re-declaration**|Allowed|Not Allowed|Not Allowed|
+|**Re-assignment**|Allowed|Allowed|Not Allowed|
+|**Must Initialize**|No|No|Yes|
+|**Hoisting**|Yes (undefined)|Yes (TDZ)|Yes (TDZ)|
+|**Modern Usage**|Avoid|When value changes|Default choice|
+
+---
 ## 11.8.2 Variable Naming Rules
 You cannot refer to a variable until it is created in JavaScript. JavaScript is a case-sensitive language. This means that if you specify `X` and `x` as variables, both of them are treated as two different variables. Similarly, in JavaScript, there are certain rules, which must be followed while specifying variables names. These rules for a variable name are as follows:
 
