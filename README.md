@@ -457,3 +457,20 @@ The focus events determine the activation of various elements that uses the `inp
 | `onselectstart` | Occurs when the selection of an element starts. |
 | `onselect`      | Occurs when the present selection changes.      |
 | `ondragstart`   | Occurs when the selected element is moved.      |
+## 11.18.2 Increment and Decrement Operators
+The increment and decrement operators are unary operators, as they operate only on a single operand. The increment operator `(++)` increases the value by 1, while the decrement operator `(--)` decreases the value by 1. These operators can be placed either before or after the operand. If the operator is placed before the operand, the expression is called pre-increment or pre-decrement. If the operator is placed after the operand, the expression is called post-increment or post-decrement.
+
+| Expression           | Type           | Result       |
+| -------------------- | -------------- | ------------ |
+| `numTwo = ++numOne;` | Pre-increment  | `numTwo = 3` |
+| `numTwo = numOne++;` | Post-increment | `numTwo = 2` |
+| `numTwo = --numOne;` | Pre-decrement  | `numTwo = 1` |
+| `numTwo = numOne--;` | Post-decrement | `numTwo = 2` |
+```
+<script>
+	var number = 3;
+	console.log('Number after increment = ' + ++number);
+	console.log('Number after decrement = ' + number--);
+</script>
+```
+The first `console.log()` function will display the incremented value of the `number` variable. This is because the first statement, `++` operator is evaluated first and then, the incremented value is substituted in the variable `number`. The second `console.log()` function will not display the decremented value of the `number` variable. This is because the current value is first assigned to the variable, and then, the --operator is evaluated.
