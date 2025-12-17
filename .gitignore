@@ -1,6 +1,17 @@
-# This file is for demo code, So dear github don't push it.
 # ----ignore-----
-form.html
-form.css
-form.js
+playground.*
+demo.*
+try.*
+test.*
+temp.*
+sample.*
+example.*
+draft.*
+backup.*
+old.*
+dev.*
+debug.*
+scratch.*
+practice.*
+experiment.*
 # ----ignore-----
